@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registrasi.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Sign-Up Technoscape 2023</title>
+</head>
+<body>
+    <section id="contact-form">
+        <div class="information-group">
+            <div class="sign-up">
+                <h2>Sign Up</h2>
+            </div>
+            <form  action="Information-Leader.html"id="form1" class="form" onsubmit="return CheckInformationGroup()">
+                <div>
+                    <div class="input-group">
+                        <label for="Nama-group">Nama Group</label>
+                        <input type="text" name="Nama-group" id="Nama-group" placeholder="Tuliskan nama team kamu!">
+                    </div>
+                    <div class="input-group">
+                        <label for="Password">Password</label>
+                        <div class="password">
+                            <input type="password" name="Password" id="Password" placeholder="Tuliskan kata sandimu! (cth : b!Nu$123)" oninput="ValidationPassword()">
+                            <span onclick="showPassword()">
+                                <iconify-icon icon="ph:eye-closed-duotone" class="hidden-icon" id="hide1"></iconify-icon>
+                                <iconify-icon icon="pepicons-pop:eye" class="hidden-icon" id="hide2"></iconify-icon>
+                            </span>
+                                <div class="hide" id="message1">
+                                    Minimal Panjang 8 karakter
+                                </div>
+                                <div class="hide" id="message2">
+                                    Harus ada huruf besar
+                                </div>
+                                <div class="hide" id="message3">
+                                    Harus ada huruf kecil
+                                </div>
+                                <div class="hide" id="message4">
+                                    Harus ada angka
+                                </div>
+                                <div class="hide" id="message5">
+                                    Harus ada tanda
+                                </div>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="Confirm-Password">Confirm Password</label>
+                        <div class="password">
+                            <input type="password" name="Confirm-Password" id="Confirm-Password" placeholder="Tuliskan ulang kata sandimu!" oninput="ValidationConfirmPassword()">
+                            <span onclick="showPassword()">
+                                <iconify-icon icon="ph:eye-closed-duotone" class="hidden-icon" id="hide3"></iconify-icon>
+                                <iconify-icon icon="pepicons-pop:eye" class="hidden-icon" id="hide4"></iconify-icon>
+                            </span>
+                            <div class="hide" id="message6">
+                                Password harus sama
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-group spacing">
+                        <label for="Binusian">Binusian / Non-Binusian</label>
+                        <div class="radio-button">
+                          <label class="radio-class">
+                            <input type="radio" value="Binusian" name="Binusian" id="Binusian">
+                            <span></span>
+                            Binusian
+                          </label>
+                          <label class="radio-class">
+                          <input type="radio" value="Non-Binusian" name="Binusian" id="Non-Binusian">
+                            <span></span>
+                            Non-Binusian
+                          </label>
+                        </div>
+                    </div>
+                    <div class="next">
+                        <button type="submit" id="Next-btn" class="Next-Btn">Next &#62</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="logo-regis">
+            <img src="assets/logoRegis.png" width="205.74px" height="29.87px" alt="LogoTechnoscape2023">
+        </div>
+    </section>
+    <script src="RegistrationInfoGroup.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+</body>
+</html>
