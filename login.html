@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to your account</title>
+    <link rel="stylesheet" href="login_style.css">
+</head>
+<body>
+    <section id="login-page">
+        <div class="page-1">
+            <div class="text">
+                <h2>Welcome Back</h2>
+                <p>Please enter the information you entered while registering</p>
+            </div>
+            <form id="login-form">
+                <div class="input-form">
+                    <label for="Nama-Team">Nama Team</label>
+                    <input type="text" name="Nama-Team" id="Nama-Team" placeholder="Tuliskan nama team kamu!">
+                </div>
+                <div class="input-form password">
+                    <label for="Passowrd-login">Password</label>
+                    <input type="password" name="Passowrd-login" id="Passowrd-login" placeholder="Tuliskan kata sandimu!">
+                    <span onclick="showPassword()">
+                        <iconify-icon icon="ph:eye-closed-duotone" class="hidden-icon" id="hide1"></iconify-icon>
+                        <iconify-icon icon="pepicons-pop:eye" class="hidden-icon" id="hide2"></iconify-icon>
+                    </span>
+                    <span>
+                        <a href=""><p class="password-child2"> Forget Password?</p>
+                        </a>
+                    </span>
+                </div>
+                <div class="button-login">
+                    <button type="submit" id="login">Log in</button>
+                </div>
+                <div class="Regis-ulang">
+                    <p style="color: #707070
+                    ">Belum memiliki akun?</p> 
+                    <a href="Informastion-Group.html">
+                    <p style="color: #0D4C92
+                    "> Register disini</p>
+                    </a>
+                </div>
+            </form>
+        </div>
+        <div class="logo-regis">
+            <img src="assets/logoRegis.png" width="205.74px" height="29.87px" alt="LogoTechnoscape2023">
+        </div>
+    </section>
+    <script src="login.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+</body>
+</html>
