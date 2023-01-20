@@ -81,6 +81,10 @@ body{
 }
    
 .text-awal,.text-akhir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
     padding: 0rem 1.5rem;
 }
 
@@ -186,4 +190,13 @@ body{
     font-Weight: 700;
     font-size: 19.46px;
     color: #FF0000;
+}
+
+#dashboard .image{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
 }
