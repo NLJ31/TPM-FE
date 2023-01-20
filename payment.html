@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment | Technoscape 2023</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+   <section id="hero-section">
+        <section id="dashboard">
+            <img src="assets/Logo Hackathon.png">
+            <div class="image">
+                <img src="assets/home.png" width="18px" height="18.75px">
+                <img src="assets/payment.svg" width="18px" height="18.75px">
+                <img src="assets/timeline.png" width="18px" height="18.75px">
+                <img src="assets/logout.svg" width="18px" height="18.75px">
+            </div>
+            <div id="dashboard-extend">
+                <h1>Dashboard</h1>
+                <div>
+                    <a href="dashboard.html">
+                    Home
+                    </a>
+                </div>
+                <div>
+                    Payment
+                </div>
+                <div>
+                    Timeline
+                </div>
+                <div>
+                    Logout
+                </div>
+            </div>
+        </section>
+        <section id="hero-content">
+            <nav id="navbar">
+                <div class="text-awal">
+                    <h2>Welcome, (Nama KELOMPOK)</h2>
+                </div>
+                <div class="text-akhir">
+                    <img src="assets/bell notif off.png">
+                    <h2>(Nama Leader)</h2>
+                </div>
+            </nav>
+            <section id="content-payment">
+                <div class="payment">
+                    <h1>Amount Left to be Paid:</h1>
+                    <p>Jumlah</p>
+                    <form id="form">
+                        <div class="divide-form">
+                            <div class="input-form">
+                                <label for="ACC-NUM">Account Number</label>
+                                <input type="number"id="ACC-NUM" name="ACC-NUM" placeholder="Input your account number">
+                            </div>
+                            <div class="input-form">
+                                <label for="Bank">Bank</label>
+                                <input type="text"id="Bank" name="Bank" placeholder="Input your bank account">
+                            </div>
+                            <div class="input-form">
+                                <label for="ACC-Name">Account Name</label>
+                                <input type="text" id="ACC-Name" name="ACC-Name" placeholder="Input your account name">
+                            </div>
+                        </div>
+                        <div class="divide-form">
+                            <label for="Payment-Proof" id="Payment">Payment Proof</label>
+                            <div class="drag-drop">
+                                <iconify-icon icon="icon-park-outline:add-picture" height="25px" width="25px"></iconify-icon>
+                                <input type="file" class="dropzone-input" id="Curriculum-Vitae" name="CV"hidden>
+                                <h2>Drag and Drop file to upload</h2>
+                                <p class="CV-1">(Format File: PDF, JPG, JPEG, PNG)</p>
+                                <p class="OR">Or</p> 
+                                <button type="button" for="Curriculum-Vitae" class="browse" id="cv">Browse</button>
+                            </div>
+                        </div>
+                        <div class="button-submit">
+                            <button type="submit" class="browse">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="proof">
+                    <iconify-icon icon="radix-icons:cross-circled" style="color: red;" width="33.59" height="33.59"></iconify-icon>
+
+                        <p>Your payment is not confirmed</p>    
+                </div>
+            </section>
+        </section>
+   </section>
+   <script src="dasbboard.js"></script>
+   <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+</body>
+</html>
