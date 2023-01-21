@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+a{
+    text-decoration: none;
+}
+
+#line {
+    margin-bottom: 10px;
+    color: white;
+    width: 100%;
+    height: 48px;
+    background-color: #A0E4CB;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linekiri{
+    position: relative;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+}
+
+.linekiri p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.linekanan{
+    position: relative;
+    width: 280px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.footerbawah{
+    display: flex;
+    flex-direction: column;
+}
+
+.bagianatas{
+    width: 300px;
+    position: relative;
+    left: 74px;
+}
+
+.bagianbawah{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 74px;
+    width: 1200px;
+}
+
+.bagianbawah .bagiankanan{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    gap: 30px;
+}
+
+.bagianbawah .bagiankiri{
+    display: flex;
+    flex-direction: row;
+}
+
+.power{
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 16px;
+    color: #707070;
+    gap: 10px;
+    position: relative;
+}
+
+.sponsored{
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 16px;
+    color: #707070;
+    width: 150px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.sponsored .atas{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+
+.sponsored .bawah{
+    display: flex;
+    justify-content: space-between;
+}
+
+.medpar{
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 16px;
+    color: #707070;
+    position: relative;
+    width: 290px;
+}
+
+.medpar .bawah{
+    display: flex;
+    justify-content: space-between;
+}
+
+.medpar .tengah{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+
+.medpar .atas{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+
+.bagiankiri{
+    gap: 40px;
+}
+
+.link h3{
+    font-weight: 700; 
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.link a{
+    color: black;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.contactAtas{
+    display: flex;
+    width: 170px;
+    position: relative;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.contactBawah{
+    display: flex;
+    width: 170px;
+    position: relative;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.contactAndSupport a{
+    color: black;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.support{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 16px;
+    gap: 4px;
+}
+
+.support h3{
+    font-weight: 700; 
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.contact h3{
+    font-weight: 700; 
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.rights{
+    font-style: bold;
+    font-weight: 555;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.ts{
+    font-style: italic;
+    font-weight: 275;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.closing{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: center;
+}
