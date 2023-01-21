@@ -265,7 +265,22 @@ a{
     font-family: "Montserrat";
     font-weight: 400;
     font-size: 1rem;
-
+}
+.norek{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding-left: 1rem;
+    width: 541px;
+    height: 41.53px;
+    background: #F5F5F5;
+    border-radius: 6.14438px;
+    outline: none;
+    border: none;
+    color: #707070;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1rem;
 }
 
 .divide-form{
